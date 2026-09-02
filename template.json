@@ -1,0 +1,28 @@
+{
+  "timeline": {
+    "soundtrack": {
+      "src": "https://example.com/music.mp3",
+      "effect": "fadeIn",
+      "volume": 0.2
+    },
+    "tracks": [
+      {
+        "clips": [
+          {
+            "asset": {
+              "type": "title",
+              "text": "{{title}}",
+              "style": "minimal"
+            },
+            "start": 0,
+            "length": 5
+          }
+        ]
+      }
+    ]
+  },
+  "output": {
+    "format": "mp4",
+    "resolution": "hd"
+  }
+}
